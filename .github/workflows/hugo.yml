@@ -46,6 +46,12 @@ jobs:
           hugo \
             --gc \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Debug - inspect generated HTML
+        run: |
+          echo "=== HEAD OF index.html ==="
+          head -30 ./public/index.html
+          echo "=== GREP nav links ==="
+          grep -n 'href=' ./public/index.html | head -10
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
