@@ -5,10 +5,11 @@
 </head>
 <body>
   <header>
-    <h1><a href="{{ "" | absURL }}">Gary Liang</a></h1>
+    {{ $bp := (urls.Parse .Site.BaseURL).Path | default "/" }}
+    <h1><a href="{{ $bp }}">Gary Liang</a></h1>
     <nav>
-      <a href="{{ "" | absURL }}" {{ if .IsHome }}class="active"{{ end }}>Home</a>
-      <a href="{{ "stuff/" | absURL }}" {{ if eq .RelPermalink "/stuff/" }}class="active"{{ end }}>Stuff</a>
+      <a href="{{ $bp }}" {{ if .IsHome }}class="active"{{ end }}>Home</a>
+      <a href="{{ $bp }}stuff/" {{ if eq .RelPermalink "/stuff/" }}class="active"{{ end }}>Stuff</a>
     </nav>
   </header>
   <main>
