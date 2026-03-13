@@ -3,4 +3,7 @@
   {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
   {{ partial "content.html" . }}
 </article>
+{{ with .Parent }}{{ if ne .IsHome true }}
+<p style="margin-top: 2em;"><a href="{{ .RelPermalink }}">&larr; Back to {{ .Title }}</a></p>
+{{ end }}{{ end }}
 {{ end }}

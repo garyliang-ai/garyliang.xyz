@@ -5,7 +5,7 @@ math: true
 
 In 2018, I spent one year writing an Honours thesis in Pure Mathematics to complete my Bachelor of Science (Advanced Mathematics) (Honours) at UNSW Sydney. I was supervised by the amazing [Professor Catherine Greenhill](https://web.maths.unsw.edu.au/~csg). The title of the thesis is **Spanning Trees in Random Regular Uniform Hypergraphs**. We have published a [paper](https://arxiv.org/abs/2005.07350) with our results in [*Combinatorics, Probability & Computing*](https://www.cambridge.org/core/journals/combinatorics-probability-and-computing/article/abs/spanning-trees-in-random-regular-uniform-hypergraphs/78D9710FC7CC7605CE9FFCB842964CBD#).
 
-Click [here](/files/thesis.pdf) to have a read of my thesis.
+You can [read the full thesis (PDF)](/files/thesis.pdf).
 
 I'll attempt to explain the results of my thesis below to an audience with no mathematical background. For those who are more mathematically inclined, I will write up a more technical version soon.
 
