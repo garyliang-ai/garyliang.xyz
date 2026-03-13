@@ -4,6 +4,8 @@ title: "Stuff"
 
 ## Writing
 
+- [The constraint is not technology. It's institutional adoption.](https://bloom.study/the-constraint-is-not-technology-its-institutional-adoption)
+- [How schools and universities are introducing AI tutors at scale](https://bloom.study/how-schools-and-universities-are-introducing-ai-tutors-at-scale)
 - [AI tutoring outperforms active learning](https://bloom.study/ai-tutoring-outperforms-active-learning)
 - [Generative AI can harm learning?](https://bloom.study/generative-ai-can-harm-learning)
 - [Decoding Google's LearnLM technical paper](https://bloom.study/decoding-googles-learnlm-technical-paper)
