@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.0" width="139" height="146">
+<g transform="translate(4, 142)">
+<g style="fill:blue;stroke:black;">
+    <path d="M 74,-8 C 60,-12 25,-24 11,-28"/>
+    <path d="M 6,-36 C 6,-50 6,-88 6,-102"/>
+    <path d="M 11,-110 C 25,-114 60,-126 74,-130"/>
+    <path d="M 82,-127 C 91,-116 113,-85 122,-73"/>
+    <path d="M 122,-64 C 113,-53 91,-22 82,-10"/>
+</g>
+<g style="fill:blue;stroke:black;">
+    <circle cx="79" cy="-132" r="5.4"/>
+    <circle cx="79" cy="-6" r="5.4"/>
+    <circle cx="125" cy="-69" r="5.4"/>
+    <circle cx="6" cy="-30" r="5.4"/>
+    <circle cx="6" cy="-108" r="5.4"/>
+</g></g>
+</svg>

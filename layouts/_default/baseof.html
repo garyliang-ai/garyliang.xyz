@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header>
+    <h1><a href="/">Gary Liang</a></h1>
+    <nav>
+      <a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a>
+      <a href="/stuff/" {{ if eq .RelPermalink "/stuff/" }}class="active"{{ end }}>Stuff</a>
+    </nav>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    &copy; {{ now.Year }} Gary Liang
+  </footer>
+</body>
+</html>
