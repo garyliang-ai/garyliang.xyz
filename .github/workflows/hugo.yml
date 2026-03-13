@@ -42,16 +42,10 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: America/New_York
         run: |
-          echo "Base URL from Pages: ${{ steps.pages.outputs.base_url }}"
           hugo \
             --gc \
+            --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Debug - inspect generated HTML
-        run: |
-          echo "=== HEAD OF index.html ==="
-          head -30 ./public/index.html
-          echo "=== GREP nav links ==="
-          grep -n 'href=' ./public/index.html | head -10
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
