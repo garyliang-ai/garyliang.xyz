@@ -1,0 +1,6 @@
+{{- $base := "/" | relURL -}}
+{{- if eq $base "/" -}}
+  {{- .Content -}}
+{{- else -}}
+  {{- .Content | replaceRE `src="/([^/"])` (printf `src="%s$1` $base) | replaceRE `href="/([^/"])` (printf `href="%s$1` $base) | safeHTML -}}
+{{- end -}}

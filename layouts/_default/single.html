@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article>
   {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
-  {{ .Content }}
+  {{ partial "content.html" . }}
 </article>
 {{ end }}

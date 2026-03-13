@@ -7,8 +7,8 @@
   <header>
     <h1><a href="/">Gary Liang</a></h1>
     <nav>
-      <a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a>
-      <a href="/stuff/" {{ if eq .RelPermalink "/stuff/" }}class="active"{{ end }}>Stuff</a>
+      <a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active"{{ end }}>Home</a>
+      <a href="{{ "/stuff/" | relURL }}" {{ if eq .RelPermalink "/stuff/" }}class="active"{{ end }}>Stuff</a>
     </nav>
   </header>
   <main>
