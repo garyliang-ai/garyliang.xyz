@@ -1,6 +1,6 @@
-{{- $base := "/" | relURL -}}
-{{- if eq $base "/" -}}
+{{- $basePath := (urls.Parse .Site.BaseURL).Path -}}
+{{- if or (eq $basePath "") (eq $basePath "/") -}}
   {{- .Content -}}
 {{- else -}}
-  {{- .Content | replaceRE `src="/([^/"])` (printf `src="%s$1` $base) | replaceRE `href="/([^/"])` (printf `href="%s$1` $base) | safeHTML -}}
+  {{- .Content | replaceRE `src="/([^/"])` (printf `src="%s$1` $basePath) | replaceRE `href="/([^/"])` (printf `href="%s$1` $basePath) | safeHTML -}}
 {{- end -}}

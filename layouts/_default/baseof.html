@@ -5,10 +5,10 @@
 </head>
 <body>
   <header>
-    <h1><a href="/">Gary Liang</a></h1>
+    <h1><a href="{{ "" | absURL }}">Gary Liang</a></h1>
     <nav>
-      <a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active"{{ end }}>Home</a>
-      <a href="{{ "/stuff/" | relURL }}" {{ if eq .RelPermalink "/stuff/" }}class="active"{{ end }}>Stuff</a>
+      <a href="{{ "" | absURL }}" {{ if .IsHome }}class="active"{{ end }}>Home</a>
+      <a href="{{ "stuff/" | absURL }}" {{ if eq .RelPermalink "/stuff/" }}class="active"{{ end }}>Stuff</a>
     </nav>
   </header>
   <main>
