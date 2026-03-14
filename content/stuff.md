@@ -2,7 +2,7 @@
 title: "Stuff"
 ---
 
-## Writing
+### Writing
 
 - [The constraint is not technology. It's institutional adoption.](https://bloom.study/the-constraint-is-not-technology-its-institutional-adoption)
 - [How schools and universities are introducing AI tutors at scale](https://bloom.study/how-schools-and-universities-are-introducing-ai-tutors-at-scale)
@@ -10,7 +10,7 @@ title: "Stuff"
 - [Generative AI can harm learning?](https://bloom.study/generative-ai-can-harm-learning)
 - [Decoding Google's LearnLM technical paper](https://bloom.study/decoding-googles-learnlm-technical-paper)
 
-## Research
+### Research
 
 My current research is in AI and education. I've previously done research in economics (game theory and industrial organisation), mathematics (combinatorics and graph theory) and computer science (blockchain and data provenance).
 
@@ -23,7 +23,7 @@ McKinsey Global Institute papers I contributed to:
 - [Global flows: The ties that bind in an interconnected world](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-flows-the-ties-that-bind-in-an-interconnected-world)
 - [Reimagining economic growth in Africa: Turning diversity into opportunity](https://www.mckinsey.com/mgi/our-research/reimagining-economic-growth-in-africa-turning-diversity-into-opportunity)
 
-## Teaching
+### Teaching
 
 Taught economics and mathematics courses at UNSW and the University of Sydney, with main focus being game theory.
 
@@ -53,13 +53,13 @@ Taught economics and mathematics courses at UNSW and the University of Sydney, w
 
 </details>
 
-## Projects
+### Projects
 
 [GL Notes](https://glnotes.com). Free high school study resources I'm publishing online.
 
 [HSC Economics Workbook](https://glnotes.com/hsc-economics-workbook) ([Amazon](https://www.amazon.com.au/dp/B0BCSBGPLH)). An economics workbook I authored for Year 12 students.
 
-## Travel
+### Travel
 
 - [South Africa](/travel/south-africa/)
 - [Namibia](/travel/namibia/)
